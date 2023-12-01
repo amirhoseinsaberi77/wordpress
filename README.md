@@ -1,8 +1,9 @@
 # wordpress
-wordpress installing in ubuntu
+نصب وردپرس روی سرور Ubuntu
+Installing WordPress on Ubuntu Server
 
 # نصب
-**سیستم عامل مورد نیاز**
+***سیستم عامل مورد نیاز***
 Ubuntu 18+ (پیشنهادی :Ubuntu 20)<br>
 
 ```
