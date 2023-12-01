@@ -1,5 +1,7 @@
 # wordpress
+```
 نصب وردپرس روی سرور Ubuntu
+```
 Installing WordPress on Ubuntu Server
 
 # نصب
