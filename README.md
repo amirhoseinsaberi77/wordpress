@@ -4,7 +4,7 @@
 **نصب وردپرس روی سرور Ubuntu**
 <br>
 
-Installing WordPress on Ubuntu Server
+******Installing WordPress on Ubuntu Server******
 
 # نصب
 **سیستم عامل مورد نیاز**
