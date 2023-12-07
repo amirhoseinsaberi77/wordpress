@@ -1,4 +1,3 @@
-printf "درحال نصب"
             # Update package index and install required packages
             sudo apt update
             sudo apt upgrade -y
