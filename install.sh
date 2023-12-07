@@ -1,7 +1,7 @@
- echo -e "${GREEN}Installing WordPress and connecting to SQL...${NC}"
-            echo ""
+printf "درحال نصب"
             # Update package index and install required packages
             sudo apt update
+            sudo apt upgrade -y
             sudo apt install apache2 ghostscript mysql-server  php php-bcmath libapache2-mod-php php-mysql php-curl php-json  php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
             # install wordpress
             sudo mkdir -p /srv/www
@@ -149,8 +149,4 @@
             echo "New values have been added to the wp-config.php file."
             sleep 1.33
             echo "WordPress has been installed and configured!"
-            sleep 1.33
-            echo ""
-            echo -e "Press ${RED}ENTER${NC} to continue"
-            read -s -n 1
-            ;;
+            echo "*وردپرس با موفقیت نصب شد*"
