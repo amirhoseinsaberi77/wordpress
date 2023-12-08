@@ -6,10 +6,18 @@
 
 ******Installing WordPress on Ubuntu Server******
 
-# نصب سریع
+# نصب وردپرس به همراه آپدیت سرور
 **سیستم عامل مورد نیاز**
-Ubuntu 18+ (پیشنهادی :Ubuntu 20)<br>
+<br>
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/install.sh)
+```
+
+# نصب سریع (فقط نصب وردپرس)
+
+<br>
+
+```
+bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/fastinstall.sh)
 ```
