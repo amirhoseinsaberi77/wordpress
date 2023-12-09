@@ -14,6 +14,8 @@
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/install.sh)
 ```
+<br>
+<br>
 
 # نصب سریع (فقط نصب وردپرس)
 
