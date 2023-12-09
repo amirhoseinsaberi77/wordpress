@@ -7,7 +7,8 @@
 ******Installing WordPress on Ubuntu Server******
 
 # نصب وردپرس به همراه آپدیت سرور
-**سیستم عامل مورد نیاز**
+
+<br>
 <br>
 
 ```
@@ -17,7 +18,9 @@ bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/insta
 # نصب سریع (فقط نصب وردپرس)
 
 <br>
+<br>
 
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/fastinstall.sh)
 ```
+<br>
