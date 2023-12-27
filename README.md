@@ -16,13 +16,3 @@ bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/insta
 ```
 <br>
 <br>
-
-# نصب سریع (فقط نصب وردپرس)
-
-<br>
-<br>
-
-```
-bash <(curl -Ls https://raw.githubusercontent.com/mr-saberi/wordpress/main/fastinstall.sh)
-```
-<br>
