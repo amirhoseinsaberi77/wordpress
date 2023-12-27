@@ -1,4 +1,5 @@
             # install required packages
+            sudo apt update
             sudo apt install apache2 ghostscript mysql-server  php php-bcmath libapache2-mod-php php-mysql php-curl php-json  php-gd php-mbstring php-xml php-xmlrpc php-soap php-intl php-zip
             # install wordpress
             sudo mkdir -p /srv/www
@@ -6,7 +7,7 @@
             curl https://wordpress.org/latest.tar.gz | sudo -u www-data tar zx -C /srv/www
             # Define the file path and content
             FILE_PATH="/etc/apache2/sites-available/wordpress.conf"
-            FILE_CONTENT="<VirtualHost *:80>\n\tDocumentRoot /srv/www/wordpress\n\t<Directory /srv/www/wordpress>\n\t\tOptions FollowSymLinks\n\t\tAllowOverride Limit Options FileInfo\n\t\tDirectoryIndex index.php\n\t\tRequire all granted\n\t</Directory>\n\t<Directory /srv/www/wordpress/wp-content>\n\t\tOptions FollowSymLinks\n\t\tRequire all granted\n\t</Directory>\n</VirtualHost>"
+            FILE_CONTENT="<VirtualHost *:6060>\n\tDocumentRoot /srv/www/wordpress\n\t<Directory /srv/www/wordpress>\n\t\tOptions FollowSymLinks\n\t\tAllowOverride Limit Options FileInfo\n\t\tDirectoryIndex index.php\n\t\tRequire all granted\n\t</Directory>\n\t<Directory /srv/www/wordpress/wp-content>\n\t\tOptions FollowSymLinks\n\t\tRequire all granted\n\t</Directory>\n</VirtualHost>"
             # Write the file
             echo -e $FILE_CONTENT | sudo tee $FILE_PATH > /dev/null
             # Enable the site
